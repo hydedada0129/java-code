@@ -1,6 +1,6 @@
 public class TestLocalVariables {
 	public static void main(String[] args) {
-		double price1 = 12.5; //double variable for decimal number
+		double price1 = 12.5; //double variable for decimal number, double is "8 bytes" (64 bits, 2^64)
 		price1 = price1 + 1;
 		System.out.println(price1);
 		
