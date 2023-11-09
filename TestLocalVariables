@@ -1,0 +1,12 @@
+public class TestLocalVariables {
+	public static void main(String[] args) {
+		double price1 = 12.5; //double variable for decimal number
+		price1 = price1 + 1;
+		System.out.println(price1);
+		
+		double price2 = 15;
+		price2 = price2 + 1;
+		System.out.println(price2);
+	}
+
+}
